@@ -14,5 +14,6 @@ public class Update{
 		String sql = "update employee1 set ename='Umesh' where eid = 105";
 		int count = st.executeUpdate(sql);
 		System.out.println(count + " row updated");
+		con.close();
 	}
 }
